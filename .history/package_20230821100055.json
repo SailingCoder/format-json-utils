@@ -1,0 +1,11 @@
+{
+  "name": "format-json-string-to",
+  "version": "1.0.0",
+  "description": "string-to-json and json-to-string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
