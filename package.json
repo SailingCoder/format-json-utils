@@ -1,6 +1,6 @@
 {
   "name": "format-json-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "format-json-utils",
   "main": "index.js",
   "scripts": {
