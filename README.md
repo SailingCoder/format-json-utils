@@ -1,18 +1,10 @@
-<!--
- * @Author: wangjunjie9
- * @Date: 2023-08-21 12:14:51
- * @LastEditors: wangjunjie9
- * @LastEditTime: 2023-08-21 12:30:03
- * @Descripttion: 
- * @FilePath: /format-json-utils/README.md
--->
 # format-json-utils
 
 ![npm version](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bc85b8f40eae4d3cb81194f536a2456d~tplv-k3u1fbpfcp-zoom-1.image)
 ![license](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bb9a2953be4945c2ab75ba38c1aad332~tplv-k3u1fbpfcp-zoom-1.image)
 ![npm bundle size](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3a794536b7c9478e852741bbf395d371~tplv-k3u1fbpfcp-zoom-1.image)
 
-`format-json-utils` 是一个用于在JavaScript中格式化JSON字符串的工具，它基于ES Modules (ESM) 语法实现。
+`format-json-utils` 是一个用于在JavaScript中格式化JSON字符串的工具，它基于ES Modules (ESM) 语法实现。支持 Vue2、Vue3、React。。。
 
 ## 安装
 
@@ -59,4 +51,3 @@ console.log(formattedJSON);
 
 ## 联系方式
 如果您有任何疑问、建议或问题，请在[issues](https://github.com/ghSailing/format-json-utils/issues)留言。
-
