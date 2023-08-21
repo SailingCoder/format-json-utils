@@ -1,15 +1,28 @@
 {
   "name": "format-json-utils",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "format-json-utils",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
   },
+  "files": [
+    "lib/**/*"
+  ],
   "author": "Sailing",
   "license": "ISC",
   "publicConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.2",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^5.1.6"
   }
 }
